@@ -532,7 +532,6 @@
         $last = $key;
       }
 
-      $return = ucwords(strtolower($return));
       $return = trim($return);
 
       return $return;
