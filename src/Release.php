@@ -604,8 +604,13 @@
       return $this -> parseAttribute($title, self::RESOLUTION);
     }
 
-    public function guessResolution(){
-      return 'SD';
+    public function guessResolution() {
+      if($this->getSource() == self::SOURCE_BLURAY || $this->getSource() == self::SOURCE_BDSCR){
+        return self::RESOLUTION_1080P;
+      }
+      else {
+        return self::RESOLUTION_SD;
+      }
     }
 
     public function setResolution($resolution){

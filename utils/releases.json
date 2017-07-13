@@ -65,7 +65,7 @@
     },
     "Mr.Peabody.And.Sherman.2014.NTSC.DVDR-JFKDVD": {
         "original": "Mr.Peabody.And.Sherman.2014.NTSC.DVDR-JFKDVD",
-        "generated": "Mr.Peabody.And.2014.DVD-R-JFKDVD",
+        "generated": "Mr.Peabody.And.Sherman.2014.DVD-R-JFKDVD",
         "title": "Mr Peabody And Sherman",
         "type": "movie",
         "year": "2014",
@@ -111,7 +111,8 @@
         "source": "DVD-R",
         "group": "MOViEiT",
         "flags": [
-            "PAL"
+            "PAL",
+            "COMPLETE"
         ],
         "score": 4
     },
@@ -149,11 +150,12 @@
         "year": "2012",
         "guess": {
             "language": "VO",
-            "resolution": "SD"
+            "resolution": "1080p"
         },
         "source": "BLURAY",
         "group": "SharpHD",
         "flags": [
+            "COMPLETE",
             "DUAL"
         ],
         "score": 3
@@ -166,11 +168,12 @@
         "year": "2014",
         "guess": {
             "language": "VO",
-            "resolution": "SD"
+            "resolution": "1080p"
         },
         "source": "BLURAY",
         "group": "XORBiTANT",
         "flags": [
+            "COMPLETE",
             "DUAL"
         ],
         "score": 3
@@ -254,6 +257,7 @@
         "encoding": "x264",
         "group": "PussyFoot",
         "flags": [
+            "DL",
             "3D"
         ],
         "score": 6
@@ -272,9 +276,9 @@
         "encoding": "x264",
         "group": "EXQUiSiTE",
         "flags": [
+            "DL",
             "3D",
-            "HSBS",
-            "DL"
+            "HSBS"
         ],
         "score": 5
     },
@@ -311,6 +315,7 @@
         "encoding": "x264",
         "group": "EXQUiSiTE",
         "flags": [
+            "DL",
             "3D",
             "HOU"
         ],
@@ -372,7 +377,7 @@
     },
     "Die.Hoehle.der.Loewen.S01E08.German.HDTVRip.x264-SotW": {
         "original": "Die.Hoehle.der.Loewen.S01E08.German.HDTVRip.x264-SotW",
-        "generated": "Die.Hoehle.Der.Loewen.GERMAN.HDRip.x264-SotW",
+        "generated": "Die.Hoehle.Der.Loewen.S01E08.GERMAN.HDRip.x264-SotW",
         "title": "Die Hoehle Der Loewen",
         "type": "tvshow",
         "guess": {
@@ -383,6 +388,8 @@
         "source": "HDRip",
         "encoding": "x264",
         "group": "SotW",
+        "season": 1,
+        "episode": 8,
         "score": 4
     },
     "Supernatural.S09E08.Endlich.wieder.Jungfrau.GERMAN.DUBBED.DL.720p.BluRay.x264-TVP": {
